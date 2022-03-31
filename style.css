@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(239, 238, 238, 255);
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -49,4 +53,13 @@ main {
 .family-son {
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  background-color: rgba(61, 65, 74, 255);
+  color: rgba(255, 255, 255, 255);
+  padding: 5px;
 }
