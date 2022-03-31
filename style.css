@@ -35,6 +35,7 @@ main {
 
 #label-family{
     display: block;
+    margin-right: 40px;
 }
 
 .input-family{
