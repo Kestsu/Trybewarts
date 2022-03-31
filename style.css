@@ -24,28 +24,28 @@ main {
   height: 500px;
 }
 
-.alinhar{
-    display: flex;
+.alinhar {
+  display: flex;
 }
 
-.family{
-    display: flex;
-    flex-direction: row;
+.family {
+  display: flex;
+  flex-direction: row;
 }
 
-#label-family{
-    display: block;
+#label-family {
+  display: block;
 }
 
-.input-family{
-    display: block;
+.input-family {
+  display: block;
 }
 
-#label-content{
-    display: block;
+#label-content {
+  display: block;
 }
 
-.family-son{
-    display: flex;
-    flex-direction: column;
+.family-son {
+  display: flex;
+  flex-direction: column;
 }
