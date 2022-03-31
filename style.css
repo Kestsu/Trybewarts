@@ -27,3 +27,11 @@ main {
 .alinhar{
     display: flex;
 }
+
+#label-family{
+    display: block;
+}
+
+.input-family{
+    display: block;
+}
