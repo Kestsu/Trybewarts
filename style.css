@@ -31,7 +31,6 @@ main {
 .family{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
 }
 
 #label-family{
@@ -49,5 +48,4 @@ main {
 .family-son{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
