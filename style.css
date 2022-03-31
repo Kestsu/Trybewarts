@@ -28,10 +28,26 @@ main {
     display: flex;
 }
 
+.family{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
 #label-family{
     display: block;
 }
 
 .input-family{
     display: block;
+}
+
+#label-content{
+    display: block;
+}
+
+.family-son{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
