@@ -27,6 +27,22 @@ body {
   display: flex;
 }
 
+.btn-primary {
+  background-color: rgb(79, 44, 130);
+  border-color: rgb(79, 44, 130);
+}
+
+.btn-primary:hover {
+  background-color: rgb(79, 44, 130);
+  border-color: rgb(79, 44, 130);
+  opacity: 0.8;
+}
+
+.btn-primary:disabled {
+  background-color: rgb(113, 88, 150);
+  border-color: rgb(113, 88, 150);
+}
+
 main {
   display: flex;
   margin: 0 5%;
@@ -40,6 +56,10 @@ main {
 
 h2 {
   text-align: center;
+}
+
+.centro {
+  margin: auto 0;
 }
 
 #trybewarts-forms-logo {
