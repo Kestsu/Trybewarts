@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
 body {
   background-color: rgba(239, 238, 238, 255);
 }
@@ -8,6 +16,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
+}
+
+.trybewarts-header-logo {
+  max-height: 60px;
 }
 
 .trybewarts-login {
@@ -16,6 +29,7 @@ body {
 
 main {
   display: flex;
+  margin: 0 5%;
 }
 
 #evaluation-form {
@@ -24,15 +38,15 @@ main {
   flex-direction: column;
 }
 
+h2 {
+  text-align: center;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
 
-.alinhar {
-  display: flex;
-}
-
-.family {
+.marcar {
   display: flex;
   flex-direction: row;
 }
@@ -50,9 +64,27 @@ main {
   display: block;
 }
 
-.family-son {
+.family {
   display: flex;
   flex-direction: column;
+  width: 40%;
+}
+.aprender {
+  width: 60%;
+}
+.aprenderCheckbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.aprenderCheckbox label {
+  margin-right: 20px;
+}
+
+.textarea{
+display: flex;
+flex-direction: column;
 }
 
 .footer {
@@ -62,4 +94,14 @@ main {
   background-color: rgba(61, 65, 74, 255);
   color: rgba(255, 255, 255, 255);
   padding: 5px;
+}
+
+hr {
+  width: 100%;
+  border: none;
+}
+
+.img {
+  margin: 0 auto;
+  margin: 0 5%;
 }
