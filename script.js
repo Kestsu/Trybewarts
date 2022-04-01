@@ -28,3 +28,13 @@ function ok() {
   }
 }
 agreement.addEventListener('change', ok);
+
+const textArea = document.getElementById('textarea');
+
+const counter = document.getElementById('counter');
+
+const limite = 500;
+
+textArea.addEventListener('input', () => {
+  counter.innerText = limite - textArea.value.length;
+});
