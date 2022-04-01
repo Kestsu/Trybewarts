@@ -12,6 +12,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -121,7 +127,7 @@
                 value="FullStack"
                 id="family-FullStack"
               />
-              <label class="form-check-label mb-3" for="family-FullStack">
+              <label class="form-check-label" for="family-FullStack">
                 Família Fullstack
               </label>
             </div>
@@ -183,55 +189,117 @@
           </div>
         </div>
         <hr />
-        <div>
+        <div class="flexRow">
           <label for="" class="mb-3" id="label-rate"
             >Como você avalia a Trybewarts?</label
           >
+          <div class="rateFlex">
+            <label for="um" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value="1"
+                class="form-check-input"
+                id="um"
+              />1
+            </label>
 
-          <label for="um" class="mx-1">
-            <input type="radio" name="rate" value="1" id="um" />1
-          </label>
+            <label for="dois" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="dois"
+              />2
+            </label>
 
-          <label for="dois" class="mx-1">
-            <input type="radio" name="rate" value="" id="dois" />2
-          </label>
+            <label for="tres" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="tres"
+              />3
+            </label>
 
-          <label for="tres" class="mx-1">
-            <input type="radio" name="rate" value="" id="tres" />3
-          </label>
+            <label for="quatro" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="quatro"
+              />4
+            </label>
 
-          <label for="quatro" class="mx-1">
-            <input type="radio" name="rate" value="" id="quatro" />4
-          </label>
+            <label for="cinco" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="cinco"
+              />5
+            </label>
 
-          <label for="cinco" class="mx-1">
-            <input type="radio" name="rate" value="" id="cinco" />5
-          </label>
+            <label for="seis" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="seis"
+              />6
+            </label>
 
-          <label for="seis" class="mx-1">
-            <input type="radio" name="rate" value="" id="seis" />6
-          </label>
+            <label for="sete" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="sete"
+              />7
+            </label>
 
-          <label for="sete" class="mx-1">
-            <input type="radio" name="rate" value="" id="sete" />7
-          </label>
+            <label for="oito" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="oito"
+              />8
+            </label>
 
-          <label for="oito" class="mx-1">
-            <input type="radio" name="rate" value="" id="oito" />8
-          </label>
+            <label for="nove" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="nove"
+              />9
+            </label>
 
-          <label for="nove" class="mx-1">
-            <input type="radio" name="rate" value="" id="nove" />9
-          </label>
-
-          <label for="dez" class="mx-1">
-            <input type="radio" name="rate" value="" id="dez" />10
-          </label>
+            <label for="dez" class="mx-1">
+              <input
+                type="radio"
+                name="rate"
+                value=""
+                class="form-check-input"
+                id="dez"
+              />10
+            </label>
+          </div>
         </div>
         <div class="textarea mb-3">
           <label for="textarea" class="comentario">Deixe seu comentário:</label>
           <textarea
             name="comentario"
+            class="form-control"
             id="textarea"
             cols="30"
             rows="3"
@@ -242,7 +310,12 @@
           <label for="agreement" class="mb-3" id="label-infos">
             Você concorda com o uso das informações acima?
           </label>
-          <input type="checkbox" name="agreement" id="agreement" />
+          <input
+            type="checkbox"
+            name="agreement"
+            class="form-check-input"
+            id="agreement"
+          />
         </div>
         <div>
           <button
