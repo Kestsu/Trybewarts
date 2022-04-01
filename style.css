@@ -3,7 +3,7 @@
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 body {
@@ -69,9 +69,11 @@ h2 {
   flex-direction: column;
   width: 40%;
 }
+
 .aprender {
   width: 60%;
 }
+
 .aprenderCheckbox {
   display: flex;
   flex-wrap: wrap;
@@ -82,9 +84,9 @@ h2 {
   margin-right: 20px;
 }
 
-.textarea{
-display: flex;
-flex-direction: column;
+.textarea {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -103,5 +105,4 @@ hr {
 
 .img {
   margin: 0 auto;
-  margin: 0 5%;
 }
